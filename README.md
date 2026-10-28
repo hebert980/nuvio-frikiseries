@@ -18,16 +18,6 @@ Este repositorio está estructurado como un **plugin de proveedores de Nuvio** (
 - Los enlaces de VK que no son directos no se resuelven.
 - El ZIP de referencia proporcionado no incluía un archivo LICENSE. Antes de publicar una distribución derivada, revisa la licencia vigente del repositorio original y conserva sus avisos de autoría.
 
-## Publicar desde Android
-
-1. Crea un repositorio público en https://github.com/new, por ejemplo `nuvio-frikiseries`.
-2. Sube `manifest.json`, `README.md` y la carpeta `providers` a la raíz.
-3. En GitHub, abre `manifest.json` y pulsa **Raw** para obtener la URL `raw.githubusercontent.com`.
-4. En Nuvio, entra en **Ajustes → Contenido y descubrimiento → Plugins → Añadir repositorio**.
-5. Pega la URL pública del manifiesto `manifest.json`, no la URL del ZIP.
-6. Activa FrikiSeries y abre sus ajustes para introducir la TMDB API key.
-7. Prueba una película y una serie. Si devuelve cero fuentes, revisa los registros y confirma que el catálogo público siga accesible.
-
 ## Licencia
 
 Adaptación comunitaria. Referencia de origen: https://github.com/stanpx/kino-plugin-frikiseries
