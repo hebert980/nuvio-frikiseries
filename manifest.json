@@ -1,0 +1,30 @@
+{
+  "name": "Nuvio FrikiSeries",
+  "version": "0.2.1",
+  "scrapers": [
+    {
+      "id": "frikiseries-retro",
+      "name": "FrikiSeries Retro",
+      "description": "Series retro, anime clásico, dibujos animados y películas clásicas en español. Usa la clave TMDB configurada en el proveedor o la clave integrada de Nuvio cuando esté disponible.",
+      "version": "0.2.1",
+      "author": "Adaptación comunitaria basada en stanpx/kino-plugin-frikiseries",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/frikiseries.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://raw.githubusercontent.com/stanpx/kino-plugin-frikiseries/main/icon.png",
+      "contentLanguage": [
+        "es",
+        "es-419"
+      ]
+    }
+  ]
+}
